@@ -1,0 +1,633 @@
+* {
+  overflow-y: visible;
+  margin: 0px;
+  padding: 0;
+}
+body {
+  background: #0f0f10;
+  padding: 1% 8%;
+}
+/* .wrapper {
+  border: 4px solid red;
+  width: 77%;
+  margin-left: 140px;
+  height: 600vh;
+} */
+nav {
+  /* overflow-y: visible; */
+  height: 40px;
+  padding-left: 30px;
+  padding-top: 20px;
+  display: flex;
+  /* border: 2px solid red; */
+  width: 85%;
+  margin: 1% 6%;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+
+nav .logo {
+  /* border: 2px solid white; */
+  overflow-y: visible;
+  height: 680%;
+  margin-left: 6%;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+nav li a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+nav li{
+  text-decoration: none;
+
+}
+
+nav ul {
+  /* border: 2px solid blue; */
+  width: 30%;
+  margin-left: 9%;
+  display: flex;
+  gap: 30px;
+}
+
+nav button {
+  border-style: none;
+  height: 35px;
+  width: 90px;
+  background-color: #1d1d20;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgb(63, 61, 61);
+  margin-left: 10%;
+
+}
+
+nav button a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+
+}
+#beats {
+  margin-left: 450px;
+  /* border: 2px solid blue; */
+  width: 40%;
+}
+#beats img {
+  height: 35px;
+  width: 180px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+#beats h1 {
+  color: white;
+  padding-top: 10px;
+  font-size: 3.4rem;
+}
+#beats h4 {
+  color: white;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+#beats p {
+  color: white;
+  padding-top: 20px;
+  word-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+}
+#beats button {
+  height: 38px;
+  width: 220px;
+  margin: 25px 0;
+  border-radius: 8px;
+  background-color: #0f0f10;
+  display: flex;
+  align-content: center;
+  /* justify-content: space-around; */
+  gap: 10px;
+  align-self: center;
+  box-shadow: 4px 2px 6px rgb(63, 61, 61);
+}
+#beats button img {
+  margin: 10px;
+  height: 18px;
+  width: 16px;
+  background-color: transparent;
+  padding-left: 7px;
+}
+#beats button h4 {
+  word-spacing: 1px;
+  padding-top: 10px;
+  padding-left: 4px;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+}
+#beats button p {
+  padding-top: 10px;
+  font-weight: 200;
+}
+main {
+  display: flex;
+  margin: 7% 22%;
+  justify-content: space-between;
+  width: 55%;
+  height: 33px;
+}
+main img {
+  /* height: 20px; */
+  width: 16%;
+}
+/*designing specs */
+
+.specification {
+  /* border: 2px solid white; */
+  height: 480px;
+  width: 75%;
+  margin-left: 13%;
+}
+.specification #specs {
+  /* border: 2px solid red;  */
+  margin-left: 40%;
+  width: 25%;
+}
+.parent {
+  display: flex;
+  margin-top: 30px;
+  /* border: 2px solid red;   */
+  height: 80%;
+}
+.parent .box1 {
+  width: 27%;
+  margin-left: 10%;
+  /* border: 2px solid yellowgreen;  */
+}
+
+#bluetooth,
+#mic {
+  /* border: 2px solid white; */
+  margin: 0 0 20px 35px;
+  color: white;
+  width: 55%;
+}
+#load img {
+  width: 15px;
+}
+
+#battary,
+#load {
+  /* border: 2px solid white; */
+  margin: 0 0 20px 0;
+  color: white;
+  width: 40%;
+}
+.parent .box2 {
+  width: 58%;
+  /* border: 2px solid yellowgreen; */
+}
+.parent .box2 img {
+  margin-left: 15%;
+  width: 68%;
+  height: 92%;
+  /* border: 2px solid white; */
+}
+
+/* ..................designing case ......-.-.-.-...........*/
+
+.case {
+  /* border:2px solid red ; */
+  width: 59%;
+  margin: 10% 0 10% 20%;
+  /* overflow-y: visible; */
+}
+.parent1 {
+  display: flex;
+  /* border: 2px solid white; */
+  margin-top: 10%;
+}
+#case1 {
+  /* border: 2px solid white; */
+  margin-left: 34%;
+  width: 27%;
+  /* height: 10%; */
+}
+.parent1 #box3 {
+  /* border: 2px solid blue; */
+  width: 35%;
+}
+.parent1 #box3 img {
+  width: 79%;
+  height: 96%;
+  padding: 5% 3% 2% 2%;
+}
+.parent1 #box4 {
+  /* border: 2px solid aqua; */
+  margin-left: 30px;
+  width: 50%;
+  color: white;
+  padding: 4% 4% 4% 5%;
+}
+.parent1 #box4 button {
+  /* border: 2px solid redblack; */
+  border-radius: 8px;
+  background-color: #0f0f10;
+  display: flex;
+  width: 65%;
+  height: 30px;
+  color: white;
+  margin: 20px 0 0 0;
+  padding-left: 8px;
+  box-shadow: 4px 2px 6px rgb(63, 61, 61);
+  border-style: none;
+}
+#box4 button img {
+  width: 10%;
+  padding: 5px 2px 2px 8px;
+  /* border: 2px solid yellow; */
+}
+#box4 button p {
+  width: 48%;
+  margin-left: 8%;
+  padding: 5px 2px 2px 14px;
+  /* border: 2px solid red; */
+}
+.music {
+  /* border: 2px solid white; */
+  /* margin-top: 30px; */
+  width: 83%;
+  margin-left: 7%;
+  height: 9%;
+  /* background-color: #0f0f10; */
+  background: #000000;
+  /* border: 2px solid redblack; */
+  border-radius: 18px;
+}
+.parent2 {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 0 0 0 11%;
+}
+.parent2 #content {
+  color: white;
+  /* border: 2px solid yellow; */
+  width: 45%;
+  padding: 8% 0 2% 4%;
+}
+.parent2 img {
+  /* border: 2px solid blue; */
+  width: 50%;
+  padding-left: 10px;
+  margin-left: 50px;
+}
+#content button {
+  /* border: 2px solid red; */
+  margin-top: 16px;
+  width: 53%;
+  height: 18%;
+  border-radius: 8px;
+  background-color: #0f0f10;
+  border-style: none;
+  box-shadow: 4px 2px 6px rgb(63, 61, 61);
+}
+#content button h5 {
+  color: white;
+}
+/* ...................designing choose your style.............. */
+.headphone-catalouge{
+  /* border: 2px solid red; */
+  width: 88%;
+  height: 90%;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+.parent3{
+  /* border: 2px solid white; */
+  height: 70%;
+  margin-top: 1%;
+
+}
+#style{
+  /* border:2px solid white; */
+  margin-left: 500px;
+  margin-top: 40px;
+  width: 18%;
+} 
+.child1{
+  padding: 2%;
+  /* border: 2px solid blue; */
+  height: 33%;
+  width: 66%;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  margin-left: 26%;
+}
+#black{
+  /* border: 2px solid yellow; */
+  width: 33%;
+  height: 55%;
+  margin-top: 0;
+
+}
+ #headphone1{
+  width: 43%;
+   height: 18%; 
+  margin-left: 29%;
+  z-index:1;
+}
+.box6{
+  background-color: #161515;
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 34%;
+  z-index: -1;
+  width: 24%;
+  height: 75%;
+  margin-left: 4%;
+border-radius: 15px;
+}
+.box6 h4{
+  /* border: 2px solid yellowgreen; */
+  height: 30px;
+  color: white;
+  margin-top: 80px;
+  font-size: 0.8rem;
+  margin-left: 16px;
+  margin-bottom: 6px;
+}
+.box6 img{
+  /* border: 2px solid white; */
+  background-color:#000000;
+  width: 10%;
+  height: 14%;
+  margin-top:58%;
+  margin-right: 20px;
+
+}
+#red{
+  /* border: 2px solid mediumseagreen; */
+  width: 33%;
+  height: 55%;
+  margin-left: 50px;
+}
+#headphone2{
+  width: 43%;
+   height: 18%; 
+  margin-left: 29%;
+  z-index:1;
+}
+/*  .............designing child-2.................. */
+
+
+.child2{
+  padding: 2%;
+  /* border: 2px solid blue; */
+  height: 33%;
+  width: 66%;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  margin-left: 26%;
+}
+#night{
+  /* border: 2px solid yellow; */
+  width: 33%;
+  height: 55%;
+  margin-top: 0;
+
+}
+ #headphone3{
+  width: 43%;
+   height: 18%; 
+  margin-left: 29%;
+  z-index:1;
+}
+.box7{
+  background-color: #161515;
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 34%;
+  z-index: -1;
+  width: 24%;
+  height: 75%;
+  margin-left: 4%;
+border-radius: 15px;
+}
+.box7 h4{
+  /* border: 2px solid yellowgreen; */
+  height: 30px;
+  color: white;
+  margin-top: 80px;
+  font-size: 0.8rem;
+  margin-left: 16px;
+  margin-bottom: 6px;
+}
+.box7 img{
+  /* border: 2px solid white; */
+  background-color:#000000;
+  width: 10%;
+  height: 14%;
+  margin-top:58%;
+  margin-right: 20px;
+
+}
+#blue{
+  /* border: 2px solid mediumseagreen; */
+  width: 33%;
+  height: 55%;
+  margin-left: 50px;
+}
+#headphone4{
+  width: 43%;
+   height: 18%; 
+  margin-left: 29%;
+  z-index:1;
+}
+
+/* .....................designing child-3..................... */
+
+.child3{
+  padding: 2%;
+  /* border: 2px solid blue; */
+  height: 33%;
+  width: 66%;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  margin-left: 26%;
+}
+#twilight{
+  /* border: 2px solid yellow; */
+  width: 33%;
+  height: 55%;
+  margin-top: 0;
+
+}
+ #headphone5{
+  width: 43%;
+   height: 18%; 
+  margin-left: 29%;
+  z-index:1;
+}
+.box8{
+  background-color: #161515;
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 34%;
+  z-index: -1;
+  width: 24%;
+  height: 75%;
+  margin-left: 4%;
+border-radius: 15px;
+}
+.box8 h4{
+  /* border: 2px solid yellowgreen; */
+  height: 30px;
+  color: white;
+  margin-top: 80px;
+  font-size: 0.8rem;
+  margin-left: 16px;
+  margin-bottom: 6px;
+}
+.box8 img{
+  /* border: 2px solid white; */
+  background-color:#000000;
+  width: 10%;
+  height: 14%;
+  margin-top:58%;
+  margin-right: 20px;
+}
+/* ..................................disigning footer............ ...........*/
+footer{
+  /* border: 2px solid purple; */
+  margin-top: 8%;
+  width: 99%;
+  margin-left: 1%;
+}
+.parent4{
+  /* border: 2px solid red; */
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.items{
+  /* border: 2px solid red; */
+  list-style: none;
+  color: white;
+  font-size:13px;
+  margin-right: 10%;
+}
+.parent4 .items h3{
+  font-size:19px ;
+
+  margin-left: 4px;
+}
+#list{
+  margin: 5px;
+}
+footer ul li{
+  list-style: none;
+}
+
+.support{
+  /* border: 2px solid red; */
+  list-style: none;
+  color: white;
+  font-size:13px;
+  margin-right: 10%;
+  width:10%;
+}
+.parent4 .support h3{
+font-size:19px ;
+  margin-left: 4px;
+}
+#list1{
+  margin: 5px;
+}
+.btn1{
+  display: flex;
+  gap: 80px;
+  /* border: 2px solid red; */
+  height: 45px;
+  width: 270px;
+}
+.btn2{
+  /* border: 2px solid blue; */
+  display: flex;
+  gap: 12px;
+  background-color: #1d1d20;
+  border-radius: 9px;
+  width: 160px;
+  height: 44px;
+}
+.btn2 p{
+color: white;
+margin-top: 12px;
+margin-left: 6px;
+}
+.btn3 img{
+  width: 14px;
+  margin-left: 3px;
+  margin-top: 6px;
+}
+.btn3 p{
+  margin-top: 5px;
+}
+.btn3{
+  /* border: 2px solid yellow; */
+  height: 28px;
+  display: flex;
+  gap: 12px;
+  background-color: #000000;
+  margin-top: 8px;
+  border-style: none;
+  border-radius: 5px;
+  width: 100px;
+}
+.btn3 p{
+  color: white;
+}
+.btn1 #uparrow{
+  width: 22px;
+  height: 25px;
+  margin-top: 10px;
+}
+.social_link #fb,#twt,#insta,#linkdin{
+/* border: 2px solid blue; */
+width: 21px;
+margin-top: 8px;
+padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+

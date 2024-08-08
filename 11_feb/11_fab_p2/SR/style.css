@@ -1,0 +1,888 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: visible;
+  font-family: "Manrope";
+}
+body {
+  background-color: #ffffff;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./Images/mainBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 125vh;
+  position: relative;
+  overflow-x: hidden;
+}
+/* ..............designing na menu........................... */
+nav {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+nav li {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+  margin-left: 90px;
+}
+hr {
+  margin: 0 100px;
+}
+/* ........................designing the div inside the header.............................. */
+header div {
+  color: #ffffffe7;
+  margin-left: 150px;
+  margin-top: 25px;
+  /* border: 2px solid red; */
+}
+header div h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+header div p {
+  margin-top: 3%;
+}
+
+#header_but {
+  background: #3634b9;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 4%;
+}
+.multiple_logo {
+  /* border: 2px solid red; */
+  width: 96%;
+  margin-left: 5%;
+  background-color: #fff;
+  margin: 0 35px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  position: relative;
+  bottom: 40px;
+}
+.multiple_logo h3 {
+  color: #3634b9;
+}
+/*...........................designing  multiple estates........................ */
+
+.parent {
+  /* border: 2px solid red; */
+  width: 98%;
+  margin-left: 7%;
+}
+.estate {
+  /* border: 2px solid blue; */
+  width: 50%;
+  margin-left: 40%;
+}
+.estate h2 {
+  font-size: 2.2rem;
+}
+.home1 {
+  /* border: 2px solid blue; */
+  width: 21%;
+}
+.parent .child1 #img1 {
+  background-image: url(./Images/cardImage1.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.child1 {
+  /* border: 2px solid mediumseagreen; */
+  margin-top: 1%;
+  display: flex;
+  gap: 30px;
+  width: 93%;
+  margin-left: 7%;
+  
+}
+.box1 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+
+}
+.box1_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.box1_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.parent .box1 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box1 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* ............................designing home2............................ */
+
+.home2 {
+  /* border: 2px solid blue; */
+  margin-left: 7%;
+  margin-top: 2%;
+  width: 21%;
+}
+.parent .child1 #img2 {
+  background-image: url(./Images/cardImage2.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box2 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+
+}
+.box2_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.box2_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.parent .box2 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box2 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* ............................designing home3............................ */
+
+.home3 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top: 3%;
+}
+.parent .child1 #img3 {
+  background-image: url(./Images/cardImage3.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box3 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box3_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box3_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.parent .box3 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box3 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* .....................................designing child2........... */
+
+.child2 {
+  /* border: 2px solid mediumseagreen; */
+
+  display: flex;
+  gap: 30px;
+  width: 93%;
+  margin-left:9px;
+  
+}
+  
+  
+/* ........................................designing home4............................... */
+
+.home4 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top:4%;
+}
+.parent .child2 #img4 {
+  background-image: url(./Images/cardImage6.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box4 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box4_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box4_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.parent .box4 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box4 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* .............................designing home5 ................ */
+.home5 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top: 2%;
+}
+.parent .child2 #img5 {
+  background-image: url(./Images/cardImage2.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box5 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box5_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box5_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.parent .box5 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box5 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+
+/* ..........................degigning home6....................... */
+.home6 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top: 0px;
+}
+.parent .child2 #img6 {
+  background-image: url(./Images/cardImage4.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box6 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box6_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box6_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.parent .box6 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box6 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+
+/* .....................................designing child2........... */
+
+.child3 {
+  /* border: 2px solid mediumseagreen; */
+
+  display: flex;
+  gap: 30px;
+  width: 93%;
+  margin-left:9px;
+  
+}
+
+/* ...............................degigning home7........................ */
+
+.home7 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top: 0px;
+}
+.parent .child3 #img7 {
+  background-image: url(./Images/cardImage7.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box7 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box7_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box7_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.parent .box7 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box7 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* ...............................degigning home8........................ */
+.home8 {
+  /* border: 2px solid blue; */
+  margin-left: 7%;
+  margin-top: 2%;  
+  
+}
+.parent .child3 #img8 {
+  background-image: url(./Images/cardImage8.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box8 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box8_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box8_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.parent .box8 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box8 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* .............................degigning home9...................... */
+.home9 {
+  /* border: 2px solid blue; */
+  margin-left: 8%;
+  width: 21%;
+  margin-top: 3%;
+}
+.parent .child3 #img9 {
+  background-image: url(./Images/cardImage9.png);
+  /* border: 2px solid red; */
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  top: 37px;
+  z-index: -1;
+  border-radius: 15px;
+}
+.box9 {
+  /* border: 2px solid mediumseagreen; */
+  width: 191px;
+  height: 80px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.box9_content h4 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+.box9_content h3 {
+  font-size: 1.2em;
+  color: #3634b9;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.parent .box9 a {
+
+  margin-top: 23px;
+  
+}
+.parent .box9 button {
+  border-radius: 15px;
+  color: white;
+  padding: 3px 8px;
+  margin-right: 10px;
+  height: 30px;
+  width: 68px;
+  background-color:#3634b9;
+  border-style: none;
+}
+/* .........................designing featureimage1...................... */
+
+  section .parent3{
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    height: 400px
+  }
+  .feature1{
+    /* border: 2px solid red; */
+    margin-top: 7%;
+    margin-left: 26%;
+    width: 99%;
+    height: 80%;
+  }
+.feature1 #back{
+  height: 310px;
+  width: 320px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.feature1  #img10{
+  
+  height: 220px;
+  width: 171px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 71px;
+  bottom:310px;
+  border-radius: 14px;
+}
+.child5{
+  /* border: 2px solid yellow; */
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 240px;
+  
+}
+.child5 h2{
+  font-size: 2.6rem;
+}
+
+.child5 p{
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.child5 a button{
+  margin-top: 15px;
+  height: 30px;
+  width: 120px;
+  border-radius: 16px;
+  background-color: #3634b9;
+  border-style: none;
+  color: white;
+}
+
+/* .........................designing feature2...................... */
+
+section .parent4{
+  /* border:2px solid blue; */
+  display: flex;
+  gap: 40px;
+  margin-top: 4%;
+  height: 400px
+}
+.feature2{
+  /* border: 2px solid red; */
+  margin-top: 7%;
+  margin-left: 26%;
+  height: 90%; 
+  
+}
+.feature2 #back_1{
+height: 310px;
+width: 330px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+}
+.feature2  #img11{
+
+height: 230px;
+width: 179px;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+left: 84px;
+bottom:315px;
+border-radius: 14px;
+}
+.child6{
+/* border: 2px solid yellow; */
+width: 50%;
+margin-top: 4%;
+margin-left: 7%;
+height: 240px;
+
+}
+.child6 h2{
+font-size: 2.6rem;
+}
+
+.child6 p{
+font-size: 1rem;
+margin-top: 20px;
+}
+.child6 a button{
+margin-top: 15px;
+height: 30px;
+width: 120px;
+border-radius: 16px;
+background-color: #3634b9;
+border-style: none;
+color: white;
+}
+/* ............................................................. */
+.subscribe{
+  /* border: 2px solid brown; */
+  width: 83%;
+  height:320px;
+  margin-left: 9%;
+  background-color: #3634b9;
+  border-radius:40px;
+
+}
+.subscribe h2{
+  font-size: 2.6rem;
+  margin: 8% 4% 0 33%;
+  color: white;
+  margin-top: 7px;
+  /* border: 2px solid red; */
+  padding-top: 20px;
+  
+}
+.subscribe p{
+  margin: 4% 4% 2% 33%;
+  font-size: 0.9rem;
+  color: white;
+
+  
+}
+.btn{
+  /* border: 2px solid red; */
+  margin-left: 90px;
+  width: 80%;
+  display: flex;
+}
+.btn .btn1{
+  height: 38px;
+  width: 310px;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 36%;
+  background-color: #0d0abb;
+  border-radius: 17px;
+  border-style: none;
+}
+.btn .btn1 p{
+  margin-top: 6px;
+  margin-left: 2%;
+  color: black;
+
+}
+.btn .btn1 img{
+  margin-top: 6px;
+  margin-left: 2%;
+  width: 22px;
+}
+.btn2{
+  width:86px;
+  height: 36px;
+  margin-top:10px;
+  margin-left: 2%;
+  border-radius: 18px;
+  background-color: #fff;
+  border-style: none;
+  color: #3634b9;
+}
+/* ......................................footer......................... */
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+.left-footer{
+  margin-left: 7%;
+}
+.left-footer #logo2 {
+  height: 80px;
+  width:80px;
+  margin-left: 40px;
+}
+.left-footer #social-link{
+  margin-left: 40px;
+}
+.left-footer #fb,#twt,#insta{
+  width: 24px;
+}
+.left-footer p{
+  width: 210px;
+  margin-top: 5%;
+  margin-left: 40px
+}
+.right-footer{
+  display: flex;
+  gap:38px ;
+  /* border: 2px solid blue; */
+  width: 70%;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+ footer ul li{
+  list-style: none;
+  margin: 20% 4% 4% 2%;
+  
+}
+  
+  
+
+
+  
